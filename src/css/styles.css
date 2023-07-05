@@ -1,0 +1,1141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: rgb(173, 22, 115) rgb(56, 156, 9); 
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); 
+  border: 2px solid rgb(35, 162, 247);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(35, 162, 247);
+  border-radius: 20px;
+  border: 3px solid rgb(35, 162, 247);
+}
+.sectionDepoimentos {
+  background-image: url('../src/img/nuvenss.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tituloDepoimento {
+  text-align: center;
+  margin-top: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+.tituloDepoimento h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 35px;
+  color: #269000;
+  margin: 0px;
+}
+.tituloDepoimento p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+.tituloDepoimento hr {
+ width: 50%;
+}
+.depoimentos {
+  display: flex;
+  justify-content: center;
+  width: 1200px; 
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.depoimentoP {
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+.depoimentos > div p {
+  margin: 5px;
+}
+.mamaes,
+.imagemDepoimento,
+.avaliacoes {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imagemDepoimento img {
+  width: 300px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.imagemDirecao img {
+  width: 300px;
+  border-radius: 10%;
+  object-fit: cover;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+.nomeMamae {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.coracoesDepoimento {
+  color: red;
+  letter-spacing: 10px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.containerSwiper {
+  width: 70%;
+
+  margin: auto;
+  
+}
+
+.sectionDirecao {
+  height: 800px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.tituloDirecao {
+  text-align: center;
+  margin: 30px;
+
+}
+
+.tituloDirecao h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 30px;
+  color: #269000;
+  margin: 0;
+
+}
+
+.tituloDirecao p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.tituloDirecao hr {
+
+  width: 50%;
+}
+
+.containerDirecao {
+  width: 100%;
+ 
+}
+
+
+.direcao {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.imagemDirecao {
+  width: 45%;
+}
+
+.infoDirecao {
+  width: 55%;
+  font-family: 'Gabriela', serif;
+  font-size: 20px;
+  margin: 50px;
+
+}
+
+/* Css da página de chamada - Gerson */
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+}
+
+
+nav li {
+  display: inline-block;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+
+nav a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.menu-item-1 {
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(222, 27, 35);
+}
+
+.menu-item-2 {
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(157, 16, 180);
+}
+
+.menu-item-3 {
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(50, 133, 106);
+}
+
+.menu-item-4 {
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(80, 172, 228);
+}
+
+.tituloHeader1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 600px;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(0, 21, 212);
+}
+
+.tituloHeader2 {
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  width: 550px;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(222, 27, 35);
+}
+
+.sectionHeader {
+  background-image: url("../img/fotoHeader.jpeg");
+  background-size: cover;
+  padding-bottom: 280px;
+}
+
+.Logo {
+  width: 200px;
+  border-radius: 0px 0px 60px 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+    color: rgb(35, 162, 247);
+    border: 4px solid rgb(35, 162, 247);
+    border-radius: 20px;
+    background-color: white;
+    font-size: 40px;
+  }
+  .sectionHeader {
+    background-image: url("../img/fotoHeader.jpeg");
+    background-size: 200vh;
+  }
+  .tituloHeader1 {
+    width: 400px;
+    font-size: 20px;
+    margin-top: 150px;
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: transform .2s ease-in-out;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 21, 212);
+  }
+  
+  .tituloHeader2 {
+    margin-top: 150px;
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: transform .2s ease-in-out;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(222, 27, 35);
+  }
+  nav ul {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 10px;
+    position: fixed;
+    top: 1px;
+    background-color: white;
+    border-radius: 0px 50px 50px 50px;
+    width: 300px;
+    border: 5px solid rgb(35, 162, 247);
+  }
+  
+  nav li {
+    margin-right: 100px;
+    width: 380px;
+  }
+
+  nav li:nth-child(3) {
+    display: none;
+  }
+  
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  nav a:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+  }
+  .Logo {
+    width: 100px;
+    border-radius: 0px 0px 60px 60px;
+  }
+  .show {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu-item-1 {
+    color: rgb(222, 27, 35);
+    transition: transform .2s ease-in-out;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .menu-item-2 {
+    color: rgb(157, 16, 180);
+    transition: transform .2s ease-in-out;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .menu-item-3 {
+    color: rgb(50, 133, 106);
+    transition: transform .2s ease-in-out;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .menu-item-4 {
+    color: rgb(80, 172, 228);
+    transition: transform .2s ease-in-out;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
+
+.show {
+  display: block !important;
+}
+
+/* Css da página de QuemSomos - Gerson */
+
+.sectionQuemSomos>div {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionQuemSomos {
+  background-color: white;
+}
+
+.divQuemSomosLeft {
+  display: inline-block;
+  width: 50%;
+  padding: 70px;
+  margin-left: 20px;
+}
+
+.quemSomosT1 {
+  color: rgb(223, 51, 51);
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quemSomosT2 {
+  color: rgb(56, 194, 33);
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quemSomosT3 {
+    color :rgb(249 ,150 ,3); 
+    padding :20px; 
+    text-align :center; 
+    font-size :35px; 
+    transition :transform .2s ease-in-out; 
+    -webkit-text-stroke-width :1px; 
+    -webkit-text-stroke-color :black; 
+    font-weight :bold; 
+    font-family :Verdana ,Geneva ,Tahoma ,sans-serif; 
+}
+
+.quemSomosP {
+    text-align:center; 
+    padding :0px;
+    font-size :22px; 
+}
+
+.divQuemSomosRight {
+    display:inline-block; 
+    width :50%; 
+    padding :100px; 
+    display:flex; 
+    justify-content:center; 
+    margin-right :00px; 
+    margin-top :50px; 
+}
+
+
+.imgQuemSomos {
+    width :200px; 
+    margin :5px; 
+}
+
+.divImagens {
+    display:flex; 
+    flex-direction :row; 
+}
+
+.img2e3 {
+    display:flex; 
+    flex-direction :row; 
+    margin-top :6px; 
+}
+
+
+.img456 {
+    display:flex; 
+    flex-direction :column; 
+    margin-left :10px; 
+}
+
+.img1 img {
+    width :100%; 
+    border-radius :50px; 
+}
+
+.img2 img {
+    border-radius :30px; 
+    width :98%; 
+}
+
+.img3 img {
+    border-radius :30px; 
+    width :98%; 
+}
+
+.img4 img {
+    border-radius :30px; 
+    width :98%; 
+}
+
+.img5 img {
+    border-radius :30px; 
+    width :98%; 
+}
+
+.img6 img {
+  border-radius :30px; 
+  width :98%; 
+}
+
+@media (max-width:600px) {  
+.sectionQuemSomos>div {    
+flex-direction :column;  
+}  
+.divQuemSomosLeft , .divQuemSomosRight {    
+width :100% ;  
+}  
+.sectionQuemSomos {
+  min-height: 2000px; /* ajuste este valor conforme necessário */
+}
+.divQuemSomosRight {
+  padding: 50px; /* ajuste este valor conforme necessário */
+  margin-top: 20px; /* ajuste este valor conforme necessário */
+}
+.img1 img {
+    width :100%; 
+    border-radius :20px; 
+}
+
+.img2 img {
+  border-radius :10px;  
+    width :97%;
+}
+
+.img3 img {
+  border-radius :10px; 
+    width :97%; 
+    margin-left: 8px;
+}
+
+.img4 img {
+  border-radius :10px; 
+  width :98%;
+    margin: 4px;
+}
+
+.img5 img {
+  border-radius :10px; 
+  width :98%; 
+    margin: 4px;
+}
+
+.img6 img {
+  border-radius :10px; 
+  width :99%; 
+  margin: 4px;
+}
+.quemSomosP {
+  text-align:center; 
+  font-size :18px; 
+}
+.quemSomosT1 {
+  font-size: 30px;
+}
+
+.quemSomosT2 {
+  font-size: 30px;
+}
+
+.quemSomosT3 {
+  font-size: 30px;
+}
+}
+
+
+
+/* Css da página de Turminhas - Rayanne */
+
+.sectionTurminhas {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-image: url('../src/img/nuvenss.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.tituloTurminhas {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tituloTurminhas h1 {
+  color: rgb(56, 238, 10);
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(55, 194, 0);
+  font-family :Verdana ,Geneva ,Tahoma ,sans-serif; 
+  font-weight: 1000;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(3, 97, 0);
+}
+
+.tituloTurminhas h2 {
+  color: rgb(5, 19, 2);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.tituloTurminhas p {
+  font-size: 25px;
+}
+
+.turminhasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+}
+.turminhasContainer>div {
+  width: 100%;
+  padding: 20px;
+}
+
+.turminhasContainer>div img {
+  width: 300px;
+  padding: 20px;
+}
+
+.turminhasContainer>div h2 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+.turminhas2 {
+  text-align: center;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.turminhas2 img {
+  max-width: 100%;
+  height: 340px;
+  border-radius: 50px;
+}
+
+.turminhas2:nth-child(1) .descricaoTurma h2 {
+  color: rgb(216, 18, 173);
+  font-weight: bold;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.turminhas2:nth-child(2) .descricaoTurma h2 {
+  color: rgb(221, 10, 38);
+  font-weight: bold;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.turminhas2:nth-child(3) .descricaoTurma h2 {
+  color: rgb(49, 10, 221);
+  font-weight: bold;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.turminhas2:nth-child(2) {
+  flex-direction: column-reverse;
+  margin-top: 20px;
+}
+
+.turminhas2:nth-child(2) .descricaoTurma {
+  order: 2;
+  padding: 15px;
+}
+
+.turminhas2:nth-child(2) .imagemTurma {
+  order: 1;
+}
+
+.descricaoTurma h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.descricaoTurma p {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.linhaTitulo {
+  border: none;
+  border-top: 1px solid black;
+  margin: 10px auto;
+  width: 40%;
+}
+
+/* Css da página de NosTemos - Rayanne */
+
+.sectionNosTemos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.tituloNosTemos {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.tituloNosTemos h1 {
+  color: rgb(51, 175, 20);
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(72, 255, 0);
+}
+
+.tituloNosTemos h2 {
+  color: rgb(5, 19, 2);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.tituloNosTemos p {
+  font-size: 25px;
+}
+
+.nosTemosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.nosTemosContainer>div {
+  width: 100%;
+}
+
+.nosTemosContainer>div img {
+  width: 250px;
+}
+
+.nosTemosContainer>div h2 {
+  font-size: 20px;
+}
+
+.itemNosTemos {
+  text-align: center;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.itemNosTemos:nth-child(1) h2 {
+  color: rgb(226, 12, 155);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+  margin-bottom: 40px;
+
+}
+
+.itemNosTemos:nth-child(2) h2 {
+  color: rgb(238, 44, 61);
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+.itemNosTemos:nth-child(3) h2 {
+  color: rgb(67, 24, 224);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+  margin-bottom: 40px;
+
+}
+
+.itemNosTemos p {
+  margin-top:30px;
+  font-size: 25px;
+
+}
+
+.itemNosTemos:nth-child(1) img {
+  object-fit: contain;
+  width: 220px;
+  height: 220px;
+  border: 8px solid rgb(226, 12, 155);
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.itemNosTemos:nth-child(2) img {
+  object-fit: contain;
+  width: 240px;
+  height: 240px;
+  margin-top:-80px;
+  margin-bottom: 10px;
+  border: 8px solid rgb(238, 44, 61);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.itemNosTemos:nth-child(3) img {
+  object-fit: contain;
+  width: 220px;
+  height: 220px;
+  border: 8px solid blue;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+
+/* CSS da página FORM - Gerson */
+
+.container {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+}
+.formulario {
+  align-items: center;
+  border: 4px solid rgb(207, 47, 181);
+  background-color: white;
+  border-radius: 30px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.formulario *:focus {
+  outline: none;
+}
+
+.botaoForm {
+  background-color: rgba(255, 50, 50, 0.986);
+  border-radius: 30px 30px;
+  width: 120px;
+  height: 50px;
+  margin-top: 80px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+.textForm {
+  border-top: none;
+  border-bottom: 5px solid rgb(64, 219, 64);
+  border-width: 0 0 5px 0;
+  border-top: 5px solid rgb(64, 219, 64);
+  margin-top: 15px;
+  width: 95%;
+  resize: none;
+}
+
+.textForm::placeholder {
+  color: rgb(105, 40, 226);
+  font-size: 15px;
+}
+
+.telefoneForm::placeholder {
+  color: rgb(98, 54, 218);
+}
+
+.telefoneForm {
+  border-top: none;
+  border-bottom: 5px solid rgb(219, 64, 185);
+  border-width: 0 0 5px 0;
+  width: 95%;
+  margin-top: 45px;
+}
+
+.telefoneForm::placeholder {
+  color: rgb(64, 219, 64);
+}
+
+.nomeForm {
+  border-top: none;
+  border-bottom: 5px solid rgba(255, 227, 68, 0.986);
+  border-width: 0 0 5px 0;
+  width: 95%;
+  margin-top: 45px;}
+
+.nomeForm::placeholder {
+  color: rgb(219, 64, 185);
+}
+.tituloForm {
+  color: rgba(255, 50, 50, 0.986);
+  font-weight :bold; 
+  font-family :Verdana ,Geneva ,Tahoma ,sans-serif; 
+}
+
+.sectionForm {
+  background-image: url('../src/imagens/90977.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; 
+}
+
+/* CSS responsivo IURE */
+@media  (max-width: 600px){
+  .sectionDepoimentos {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .depoimentos{
+     flex-direction: column; 
+     }
+  .depoimentos > div {
+    margin: 10px;
+  }
+  .depoimentos > div p {
+    margin: 5px;
+  }
+
+  .direcao {
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    }
+  .direcao img {
+    width: 100%;
+    height: 100%;
+  }
+  .sectionDirecao{
+    height: 100%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+  .sectionDepoimentos {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .depoimentos{
+    flex-direction: column; 
+
+    }
+ .depoimentos > div {
+   margin: 10px;
+ }
+ .depoimentos > div img {
+   width: 60%;
+  
+ }
+ .depoimentos > div p {
+  margin: 5px;
+}
+
+/* Direcão tablet */
+
+.sectionDirecao {
+  width: 100%;
+  height: 100%;
+}
+.direcao{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+.containerDirecao{
+  text-align: center;
+  }
+  .imagemDirecao  {
+    align-items: center;
+   justify-content: center;
+   width: 300px;
+    
+  }
+
+}
+
+/*fim css iure */
+
+@media screen and (min-width: 1100px) {
+  .mamaes,
+  .imagemDepoimento,
+  .avaliacoes {
+    width: 100%;
+    margin: 5px; 
+  }
+  .containerSwiper {
+    width: 80%;
+  }
+ .imagemDepoimento img {
+    width: 100px;
+  }
+  .nosTemosContainer {
+    flex-direction: row;
+  }
+  .nosTemosContainer>div img {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .nosTemosContainer>div h2 {
+    font-size: 28px;
+  }
+.sectionTurminhas{
+  background-color: aqua;
+}
+ .turminhasContainer{
+  flex-direction: row;
+
+ }
+.turminhasContainer>div img{
+  width: 100%;
+    padding: 30px;
+}
+.turminhasContainer>div h2{
+  font-size: 28px;
+}
+}
+
+.sectionFooter {
+  width: 100%;
+  height: 200px;
+  background-image: url('../src/img/nuvenss.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+}
+
+.imgFooter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.textFooter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  font-weight :bold; 
+  font-family :Verdana ,Geneva ,Tahoma ,sans-serif; 
+  color: #e40800;
+}
+
+.sectionFooter img {
+  width: 80px;
+
+}
