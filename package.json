@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+   "homepage": "https://iure11.github.io/Teste",
   "private": true,
   "version": "0.0.0",
   "type": "module",
